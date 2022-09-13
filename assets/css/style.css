@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.game-hot,
+.lottery,
+.main-box-contact{
+    background-color: #004080;
+}
+.main-box-game-hot .column .box{
+    transition: transform 0.3s;
+}
+.main-box-game-hot .column .box:hover{
+    transform: scale(1.06);
+}
+.main-banner .left h1{
+    color: #FFFFFF;
+    text-shadow: #474747 3px 5px 2px;
+    color: #FFFFFF;
+}
+.download{
+    transition: transform 0.3s;
+}
+.download:hover{
+    transform: scale(1.05);
+}
+.header .open-menu,
+.header .close-menu{
+    display: none;
+}
+
+/* page live */
+.bg-live{
+    background: url(../images/banner/live_bg.d660fa14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/* page slot */
+.bg-slot{
+    background: url(../images/banner/slot_bg.56530c96.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+.slot .main-box-slot .column .box-slot{
+    background-color: #b8860b;
+}
+/* poker page */
+.bg-poker{
+    background: url(../images/banner/chess_bg.5dcf7bbe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* poker page */
+.bg-fish{
+    background: url(../images/banner/fish_bg.393ba8ed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/* page lottery */
+.main-lottery .box-1 p{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}

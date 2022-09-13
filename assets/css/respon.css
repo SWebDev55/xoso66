@@ -1,0 +1,1189 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .header .open-menu,
+    .header .close-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .user{
+        display: none;
+    }
+    .nav{
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: 100px 0px 0px 0px;
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+    .nav .main-box .menu{
+        width: 100%;
+    }
+    .nav .main-box .menu ul li{
+        display: block;
+    }
+    .main-banner{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-banner .main-box{
+        display: block;
+    }
+    .main-banner .main-box .left,
+    .main-banner .main-box .right{
+        float: none;
+        width: 100%;
+    }
+    .main-banner .main-box .left h1{
+        font-size: 30px;
+        padding: 0px 0px 30px 0px;
+    }
+    .main-banner .main-box .left a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .main-banner .main-box .right{
+        padding-top: 30px;
+    }
+    .main-banner .main-box .right img{
+        width: 100%;
+    }
+
+    /* game hot */
+    .game-hot,
+    .main-box-game-hot .column{
+        border-radius: 0px !important;
+    }
+    .game-hot .title{
+        border-radius: 10px;
+    }
+    .game-hot{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-box-game-hot{
+        padding: 0px !important;
+    }
+    .main-box-game-hot .column{
+        width: 50%;
+        padding: 5px;
+    }
+    .main-box-game-hot .column .box{
+        border-radius: 5px;
+    }
+    .main-box-game-hot .column .box .images,
+    .main-box-game-hot .column .box .images img{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .main-box-game-hot .column .des h1{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .main-box-game-hot .column .des p{
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    /* slide */
+    .slide{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .slide .carousel .carousel-inner,
+    .slide .carousel .carousel-inner .carousel-item,
+    .slide .carousel .carousel-inner .carousel-item img{
+        border-radius: 0px !important;
+    }
+
+    /* detaill */
+    .detail .main-box{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .detail .main-box .box .box-text,
+    .detail .main-box .box .box-img{
+        float: none;
+        width: 100%;
+    }
+    .detail .main-box .box .box-img img{
+        width: 100%;
+    }
+    .user-member{
+        display: block;
+    }
+
+    /* page live */
+    .live-banner{
+        width: 100%;
+        height: 120px;
+    }
+    .live-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .live{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .live .main-box-live{
+        padding: 0px !important;
+    }
+    .live .main-box-live .column{
+        width: 33.3%;
+        padding: 2px !important;
+    }
+    .live .main-box-live .column .play-btn{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .live .main-box-live .column .play-btn p{
+        font-size: 8px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+    .live .main-box-live .column .play-btn i{
+        font-size: 10px !important;
+    }
+
+
+    /* page slot */
+    .slot-banner{
+        width: 100%;
+        height: 80px;
+    }
+    .slot-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .slot{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column{
+        width: 33.3%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .box-slot .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .title{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .slot .main-box-slot .column .title p{
+        font-size: 10px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+
+
+    /* page  poker */
+    .poker-banner{
+        width: 100%;
+        height: 80px;
+    }
+    .poker-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .poker{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column{
+        width: 50%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column .box-poker .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+
+    /* page fish */
+    .fish-banner{
+        width: 100%;
+        height: 80px;
+    }
+    .fish-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .fish{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column{
+        width: 33.3%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column .box-fish .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+
+    /* page contact */
+    .main-box-contact .box{
+        width: 100%;
+        padding: 10px !important;
+        display: block;
+    }
+    .main-box-contact .box form,
+    .main-box-contact .box .map{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .main-box-contact .box form button{
+        padding: 10px;
+    }
+    .main-box-contact .box .map{
+        height: 300px;
+    }
+
+    /* page lottery */
+    .main-lottery .main-box{
+        width: 100%;
+        padding: 10px !important;
+        border-radius: 0px !important;
+    }
+    .main-lottery .main-box .box{
+        display: block;
+    }
+    .main-lottery .main-box .box .box-lottery{
+        width: 100%;
+        padding: 0px !important;
+        display: inline-block;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1{
+        padding: 0px;
+        display: block;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 p{
+        width: 60px;
+        margin: 10px 0px;
+        padding: 0px;
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul li{
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+        margin: 0px 3px;
+    }
+    
+}
+
+
+
+@media (min-width: 481px) and (max-width: 599px){
+    .header .open-menu,
+    .header .close-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .user{
+        display: none;
+    }
+    .nav{
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: 100px 0px 0px 0px;
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+    .nav .main-box .menu{
+        width: 100%;
+    }
+    .nav .main-box .menu ul li{
+        display: block;
+    }
+    .main-banner{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-banner .main-box{
+        display: block;
+    }
+    .main-banner .main-box .left,
+    .main-banner .main-box .right{
+        float: none;
+        width: 100%;
+    }
+    .main-banner .main-box .left h1{
+        font-size: 30px;
+        padding: 0px 0px 30px 0px;
+    }
+    .main-banner .main-box .left a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .main-banner .main-box .right{
+        padding-top: 30px;
+    }
+    .main-banner .main-box .right img{
+        width: 100%;
+    }
+
+    /* game hot */
+    .game-hot,
+    .main-box-game-hot .column{
+        border-radius: 0px !important;
+    }
+    .game-hot .title{
+        border-radius: 10px;
+    }
+    .game-hot{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-box-game-hot{
+        padding: 0px !important;
+    }
+    .main-box-game-hot .column{
+        width: 50%;
+        padding: 5px;
+    }
+    .main-box-game-hot .column .box{
+        border-radius: 5px;
+    }
+    .main-box-game-hot .column .box .images,
+    .main-box-game-hot .column .box .images img{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .main-box-game-hot .column .des h1{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .main-box-game-hot .column .des p{
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    /* slide */
+    .slide{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .slide .carousel .carousel-inner,
+    .slide .carousel .carousel-inner .carousel-item,
+    .slide .carousel .carousel-inner .carousel-item img{
+        border-radius: 0px !important;
+    }
+
+    /* detaill */
+    .detail .main-box{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .detail .main-box .box .box-text,
+    .detail .main-box .box .box-img{
+        float: none;
+        width: 100%;
+    }
+    .detail .main-box .box .box-img img{
+        width: 100%;
+    }
+    .user-member{
+        display: block;
+    }
+    /* page live */
+    .live-banner{
+        width: 100%;
+        height: 150px;
+    }
+    .live-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .live{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .live .main-box-live{
+        padding: 0px !important;
+    }
+    .live .main-box-live .column{
+        width: 25%;
+        padding: 2px !important;
+    }
+    .live .main-box-live .column .play-btn{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .live .main-box-live .column .play-btn p{
+        font-size: 8px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+    .live .main-box-live .column .play-btn i{
+        font-size: 10px !important;
+    }
+
+    /* page slot */
+    .slot-banner{
+        width: 100%;
+        height: 120px;
+    }
+    .slot-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .slot{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column{
+        width: 33.3%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .box-slot .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .title{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .slot .main-box-slot .column .title p{
+        font-size: 13px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+
+
+    /* page  poker */
+    .poker-banner{
+        width: 100%;
+        height: 80px;
+    }
+    .poker-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .poker{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column{
+        width: 33.3%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column .box-poker .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+     /* page fish */
+     .fish-banner{
+        width: 100%;
+        height: 100px;
+    }
+    .fish-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .fish{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column{
+        width: 33.3%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column .box-fish .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+    /* page contact */
+    .main-box-contact .box{
+        width: 100%;
+        padding: 10px !important;
+        display: block;
+    }
+    .main-box-contact .box form,
+    .main-box-contact .box .map{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .main-box-contact .box form button{
+        padding: 10px;
+    }
+    .main-box-contact .box .map{
+        height: 300px;
+    }
+
+    /* page lottery */
+    .main-lottery .main-box{
+        width: 100%;
+        padding: 10px !important;
+        border-radius: 0px !important;
+    }
+    .main-lottery .main-box .box{
+        display: block;
+    }
+    .main-lottery .main-box .box .box-lottery{
+        width: 100%;
+        padding: 0px !important;
+        display: inline-block;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1{
+        padding: 0px;
+        display: block;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 p{
+        width: 60px;
+        margin: 10px 0px;
+        padding: 0px;
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul li{
+        width: 32px;
+        height: 32px;
+        font-size: 13px;
+        margin: 0px 3px;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 767px){
+    .header .open-menu,
+    .header .close-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .user{
+        display: none;
+    }
+    .nav{
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: 100px 0px 0px 0px;
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+    .nav .main-box .menu{
+        width: 100%;
+    }
+    .nav .main-box .menu ul li{
+        display: block;
+    }
+
+    /* banner */
+    .main-banner{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-banner .main-box .left h1{
+        font-size: 40px;
+        padding: 0px 0px 30px 0px;
+    }
+    .main-banner .main-box .left a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .main-banner .main-box .right{
+        padding-top: 30px;
+    }
+    .main-banner .main-box .right img{
+        width: 100%;
+    }
+
+    /* game hot */
+    .game-hot,
+    .main-box-game-hot .column{
+        border-radius: 0px !important;
+    }
+    .game-hot .title{
+        border-radius: 10px;
+    }
+    .game-hot{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-box-game-hot{
+        padding: 0px !important;
+    }
+    .main-box-game-hot .column{
+        width: 33.3%;
+        padding: 5px;
+    }
+    .main-box-game-hot .column .box{
+        border-radius: 5px;
+    }
+    .main-box-game-hot .column .box .images,
+    .main-box-game-hot .column .box .images img{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .main-box-game-hot .column .des h1{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .main-box-game-hot .column .des p{
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    /* slide */
+    .slide{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .slide .carousel .carousel-inner,
+    .slide .carousel .carousel-inner .carousel-item,
+    .slide .carousel .carousel-inner .carousel-item img{
+        border-radius: 0px !important;
+    }
+
+    /* detaill */
+    .detail .main-box{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .detail .main-box .box .box-img img{
+        width: 100%;
+    }
+    .user-member{
+        display: block;
+    }
+
+    /* page live */
+    .live-banner{
+        width: 100%;
+        height: 180px;
+    }
+    .live-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .live{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .live .main-box-live{
+        padding: 0px !important;
+    }
+    .live .main-box-live .column{
+        width: 20%;
+        padding: 2px !important;
+    }
+    .live .main-box-live .column .play-btn{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .live .main-box-live .column .play-btn p{
+        font-size: 8px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+    .live .main-box-live .column .play-btn i{
+        font-size: 10px !important;
+    }
+
+
+     /* page slot */
+     .slot-banner{
+        width: 100%;
+        height: 120px;
+    }
+    .slot-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .slot{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column{
+        width: 20%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .box-slot .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .title{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .slot .main-box-slot .column .title p{
+        font-size: 10px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+
+     /* page  poker */
+     .poker-banner{
+        width: 100%;
+        height: 120px;
+    }
+    .poker-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .poker{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column{
+        width: 33.3%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column .box-poker .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+     /* page fish */
+     .fish-banner{
+        width: 100%;
+        height: 150px;
+    }
+    .fish-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .fish{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column{
+        width: 33.3%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column .box-fish .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+    /* page contact */
+    .main-box-contact .box{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-box-contact .box form,
+    .main-box-contact .box .map{
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* page lottery */
+    .main-lottery .main-box{
+        width: 100%;
+        padding: 10px !important;
+        border-radius: 0px !important;
+    }
+    .main-lottery .main-box .box{
+        display: block;
+    }
+    .main-lottery .main-box .box .box-lottery{
+        width: 100%;
+        padding: 0px !important;
+        display: inline-block;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1{
+        padding: 0px;
+        width: 100%;
+        display: inline-block;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 p{
+        width:100px;
+        margin: 10px 0px;
+        padding: 0px;
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul li{
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin: 0px 3px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .header .open-menu,
+    .header .close-menu{
+        display: none;
+    }
+    .menu ul li a{
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+    .menu ul li a img{
+        width: 20px;
+    }
+    /* banner */
+    .main-banner{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-banner .main-box .left h1{
+        font-size: 40px;
+        padding: 0px 0px 30px 0px;
+    }
+    .main-banner .main-box .left a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .main-banner .main-box .right{
+        padding-top: 30px;
+    }
+    .main-banner .main-box .right img{
+        width: 100%;
+    }
+
+    /* game hot */
+    .game-hot,
+    .main-box-game-hot .column{
+        border-radius: 0px !important;
+    }
+    .game-hot .title{
+        border-radius: 10px;
+    }
+    .game-hot{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-box-game-hot{
+        padding: 0px !important;
+    }
+    .main-box-game-hot .column{
+        width: 20%;
+        padding: 5px;
+    }
+    .main-box-game-hot .column .box{
+        border-radius: 5px;
+    }
+    .main-box-game-hot .column .box .images,
+    .main-box-game-hot .column .box .images img{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .main-box-game-hot .column .des h1{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .main-box-game-hot .column .des p{
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    /* slide */
+    .slide{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .slide .carousel .carousel-inner,
+    .slide .carousel .carousel-inner .carousel-item,
+    .slide .carousel .carousel-inner .carousel-item img{
+        border-radius: 0px !important;
+    }
+
+    /* detaill */
+    .detail .main-box{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .detail .main-box .box .box-img img{
+        width: 100%;
+    }
+
+    /* page live */
+    .live{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .live .main-box-live{
+        padding: 0px !important;
+    }
+    .live .main-box-live .column{
+        width: 20%;
+        padding: 2px !important;
+    }
+    .live .main-box-live .column .play-btn{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .live .main-box-live .column .play-btn p{
+        font-size: 12px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+    .live .main-box-live .column .play-btn i{
+        font-size: 15px !important;
+    }
+
+     /* page slot */
+     .slot-banner{
+        width: 100%;
+        height: 160px;
+    }
+    .slot-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .slot{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column{
+        width: 20%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .box-slot .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+    .slot .main-box-slot .column .title{
+        width: 100%;
+        padding: 0px 4px !important;
+        bottom: 10px;
+    }
+    .slot .main-box-slot .column .title p{
+        font-size: 12px !important;
+        padding: 0px 5px !important;
+        height: 30px;
+    }
+
+     /* page  poker */
+    .poker-banner{
+        width: 100%;
+        height: 160px;
+    }
+    .poker-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .poker{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column{
+        width: 20%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .poker .main-box-poker .column .box-poker .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+
+     /* page fish */
+     .fish-banner{
+        width: 100%;
+        height: 180px;
+    }
+    .fish-banner img{
+        width: 100%;
+        height: 100%;
+    }
+    .fish{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish{
+        padding: 0px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column{
+        width: 20%;
+        padding: 2px !important;
+        border-radius: 0px;
+    }
+    .fish .main-box-fish .column .box-fish .images{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
+      /* page contact */
+      .main-box-contact .box{
+        width: 100%;
+        padding: 10px !important;
+    }
+    .main-box-contact .box form,
+    .main-box-contact .box .map{
+        width: 100%;
+    }
+
+
+    /* page lottery */
+    .main-lottery .main-box{
+        width: 100%;
+        padding: 10px !important;
+        border-radius: 0px !important;
+    }
+    .main-lottery .main-box .box{
+        display: block;
+    }
+    .main-lottery .main-box .box .box-lottery{
+        width: 100%;
+        padding: 0px !important;
+        display: inline-block;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1{
+        padding: 0px;
+        width: 100%;
+        display: inline-block;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 p{
+        width:100px;
+        margin: 10px 0px;
+        padding: 0px;
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-lottery .main-box .box .box-lottery .box-1 ul li{
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin: 0px 3px;
+    }
+}

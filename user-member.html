@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/respon.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- tailwind css framwork -->
+    <link href="/dist/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+            theme: {
+            extend: {
+                fontFamily: {
+                    sans: ['Inter', 'sans-serif'],
+                },
+            }
+        }
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- icon -->
+    <link rel="icon" href="./assets/images/logo/logo.png">
+    <title>XOSO66</title>
+</head>
+<body>
+    <div class="header bg-gray-800 shadow">
+        <!-- logo -->
+        <div class="main-box max-w-7xl m-auto flex justify-between items-center">
+            <div class="logo w-32 p-1">
+                <img src="./assets/images/logo/logo.png" alt="" class="w-full h-full">
+            </div>
+            <div class="user">
+                <a href="./user-member.html" class="btn bg-red-600 text-white  px-4 py-3 rounded-full hover:bg-red-800 mx-2 transition-all duration-500">Đăng nhập</a>
+                <a href="./user-member.html" class="btn bg-red-600 text-white  px-4 py-3 rounded-full hover:bg-red-800 mx-2 transition-all duration-500">Đăng ký</a>
+            </div>
+            <div onclick="openNav()" class="open-menu text-xl text-white w-10 h-10 bg-blue-700 flex justify-center items-center rounded-full ">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <!-- menu -->
+        <div class="nav bg-blue-600" id="myNav">
+            <div class="main-box max-w-7xl m-auto">
+                <div onclick="closeNav()" class="close-menu closebtn w-20 h-20 text-white bg-blue-700 rounded-full flex justify-center items-center text-3xl absolute top-3 left-14">
+                    <i class="fa fa-times"></i>
+                </div>
+                <div class="menu">
+                    <ul class="m-0 p-0">
+                        <li class="py-2 inline-block px-1"><a href="./index.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-500 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/home.png" alt="" class="w-7">&nbsp;Nhà</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./live.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/live.png" alt="" class="w-7">&nbsp;Trực Tiếp</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./slot.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/slot.png" alt="" class="w-7">&nbsp;Chỗ</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./poker.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/poker.png" alt="" class="w-7">&nbsp;Bài xì phé</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./lottery.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/lottery.png" alt="" class="w-7">&nbsp;Vé số</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./fish.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/fishing.png" alt="" class="w-7">&nbsp;Đánh bắt cá</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./contact.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/contact.png" alt="" class="w-7">&nbsp;Tiếp Xúc</a></li>
+                        <li class="py-2 inline-block px-1 user-member hidden"><a href="#" class="border-2 bg-red-600 hover:bg-red-800 text-lg text-white px-5 py-2 flex items-center rounded-full transition-all duration-500">Đăng nhập</a></li>
+                        <li class="py-2 inline-block px-1 user-member hidden"><a href="#" class="border-2 bg-red-600 hover:bg-red-800 text-lg text-white px-5 py-2 flex items-center rounded-full transition-all duration-500">Đăng ký</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-xl m-auto bg-blue-900 rounded-xl p-10 my-5" id="user-login">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="text-center text-5xl text-white rounded-full p-2 w-20 h-20 bg-blue-800 flex items-center justify-center m-auto">
+                <i class="fa fa-user"></i>
+            </div>
+            <h1 class="text-2xl text-white font-bold text-center pb-10">Đăng nhập người dùng</h1>
+            <span class="text-white text-md font-bold">Tên người dùng hoặc Email</span><br>
+            <div class="flex items-center py-2">
+                <p class="p-3 w-14 bg-blue-800 text-center text-white rounded-l-xl"><i class="fa fa-user"></i></p>
+                <input type="text" placeholder="Tên người dùng hoặc Email" class="p-3 rounded-r-xl w-full">
+            </div>
+            <span class="text-white text-md font-bold">Mật khẩu</span><br>
+            <div class="flex items-center py-2">
+                <p class="p-3 w-14 bg-blue-800 text-center text-white rounded-l-xl"><i class="fa fa-lock"></i></p>
+                <input type="password" placeholder="Mật khẩu" class="p-3 rounded-r-xl w-full">
+            </div>
+            <div class="text-center py-5">
+                <button type="submit" class="w-40 bg-blue-500 rounded-full p-2 text-xl text-white font-bold hover:bg-blue-800 transition-all duration-500">Login Now</button>
+            </div>
+            <p class="text-center text-white text-md font-bold">______HOẶC______</p>
+            <p class="text-md text-white text-center py-5">Đăng nhập bằng Social Media</p>
+            <div class="text-center">
+                <a href="#" class="inline-block mx-1"><i class="text-xl text-white w-12 h-12 flex justify-center items-center bg-blue-500 rounded-full hover:bg-blue-800 transition-all duration-500 fab fa-facebook"></i></a>
+                <a href="#" class="inline-block mx-1"><i class="text-xl text-white w-12 h-12 flex justify-center items-center bg-blue-500 rounded-full hover:bg-blue-800 transition-all duration-500 fab fa-twitter"></i></a>
+            </div>
+            <div class="flex items-center w-64 m-auto py-5">
+                <p class="text-center text-white">Tôi không có tài khoản</p>
+                <span class="font-bold text-white">&nbsp;|&nbsp;</span>
+                <a href="#" class="text-red-400 font-bold" id="go-register">Đăng ký</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="max-w-xl m-auto bg-blue-900 rounded-xl p-10 my-5 hidden" id="user-register">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="text-center text-5xl text-white rounded-full p-2 w-20 h-20 bg-blue-800 flex items-center justify-center m-auto">
+                <i class="fa fa-user"></i>
+            </div>
+            <h1 class="text-2xl text-white font-bold text-center pb-10">UĐăng ký người dùng</h1>
+            <span class="text-white text-md font-bold">Tên tài khoản</span><br>
+            <div class="flex items-center py-2">
+                <p class="p-3 w-14 bg-blue-800 text-center text-white rounded-l-xl"><i class="fa fa-user"></i></p>
+                <input type="text" placeholder="Tên tài khoản" class="p-3 rounded-r-xl w-full">
+            </div>
+            <span class="text-white text-md font-bold">E-mail</span><br>
+            <div class="flex items-center py-2">
+                <p class="p-3 w-14 bg-blue-800 text-center text-white rounded-l-xl"><i class="fa-solid fa-envelope"></i></p>
+                <input type="text" placeholder="E-mail" class="p-3 rounded-r-xl w-full">
+            </div>
+            <span class="text-white text-md font-bold">Mật khẩu</span><br>
+            <div class="flex items-center py-2">
+                <p class="p-3 w-14 bg-blue-800 text-center text-white rounded-l-xl"><i class="fa fa-lock"></i></p>
+                <input type="password" placeholder="Mật khẩu" class="p-3 rounded-r-xl w-full">
+            </div>
+            <span class="text-white text-md font-bold">Xác nhận mật khẩu</span><br>
+            <div class="flex items-center py-2">
+                <p class="p-3 w-14 bg-blue-800 text-center text-white rounded-l-xl"><i class="fa fa-lock"></i></p>
+                <input type="password" placeholder="Xác nhận mật khẩu" class="p-3 rounded-r-xl w-full">
+            </div>
+            <div class="text-center py-5">
+                <button type="submit" class="w-40 bg-blue-500 rounded-full p-2 text-xl text-white font-bold hover:bg-blue-800 transition-all duration-500">Register Now</button>
+            </div>
+            <p class="text-center text-white text-md font-bold">______HOẶC______</p>
+            <p class="text-md text-white text-center py-5">Đăng ký với Social Media</p>
+            <div class="text-center">
+                <a href="#" class="inline-block mx-1"><i class="text-xl text-white w-12 h-12 flex justify-center items-center bg-blue-500 rounded-full hover:bg-blue-800 transition-all duration-500 fab fa-facebook"></i></a>
+                <a href="#" class="inline-block mx-1"><i class="text-xl text-white w-12 h-12 flex justify-center items-center bg-blue-500 rounded-full hover:bg-blue-800 transition-all duration-500 fab fa-twitter"></i></a>
+            </div>
+            <div class="flex items-center w-64 m-auto py-5">
+                <p class="text-center text-white">Tôi có tài khoản</p>
+                <span class="font-bold text-white">&nbsp;|&nbsp;</span>
+                <a href="#" class="text-red-400 font-bold" id="go-login">Đăng nhập</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div class="footer bg-gray-800 py-5">
+        <div class="main-box max-w-7xl m-auto">
+            <div class="logo w-48 m-auto pb-5">
+                <img src="./assets/images/logo/logo.png" alt="" class="w-full h-full">
+            </div>
+            <h1 class="text-center text-white pb-5 text-lg">Cờ bạc có thể gây nghiện, hãy chơi có trách nhiệm. Để biết thông tin về các biện pháp hỗ trợ, vui lòng truy cập trang trợ giúp của chúng tôi. Công ty đăng ký tại Quần đảo Virgin thuộc Anh, được các hiệp hội quốc tế công nhận. Vui lòng đảm bảo bạn đủ 18 tuổi trở lên trước khi đăng ký tham gia trò chơi!</h1>
+            <ul class="text-center m-0 p-0">
+                <li class="inline-block"><a href="#" class="hover:text-red-500 px-5 text-lg text-center text-white">Trung tâm trợ giúp</a></li>
+                <span class="text-white font-bold">|</span>
+                <li class="inline-block"><a href="#" class="hover:text-red-500 px-5 text-lg text-center text-white">Liên hệ chúng tôi</a></li>
+                <span class="text-white font-bold">|</span>
+                <li class="inline-block"><a href="#" class="hover:text-red-500 px-5 text-lg text-center text-white">Điều khoản và quy định</a></li>
+            </ul>
+            <p class="text-white text-center text-md pt-10">@ 2012-2022 v1.3.5 BINGO All right reserved</p>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="../path/to/flowbite/dist/flowbite.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

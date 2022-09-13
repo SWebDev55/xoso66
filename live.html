@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/respon.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- tailwind css framwork -->
+    <link href="/dist/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+            theme: {
+            extend: {
+                fontFamily: {
+                    sans: ['Inter', 'sans-serif'],
+                },
+            }
+        }
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- icon -->
+    <link rel="icon" href="./assets/images/logo/logo.png">
+    <title>XOSO66</title>
+</head>
+<body>
+    <div class="header bg-gray-800 shadow">
+        <!-- logo -->
+        <div class="main-box max-w-7xl m-auto flex justify-between items-center">
+            <div class="logo w-32 p-1">
+                <img src="./assets/images/logo/logo.png" alt="" class="w-full h-full">
+            </div>
+            <div class="user">
+                <a href="./user-member.html" class="btn bg-red-600 text-white  px-4 py-3 rounded-full hover:bg-red-800 mx-2 transition-all duration-500">Đăng nhập</a>
+                <a href="./user-member.html" class="btn bg-red-600 text-white  px-4 py-3 rounded-full hover:bg-red-800 mx-2 transition-all duration-500">Đăng ký</a>
+            </div>
+            <div onclick="openNav()" class="open-menu text-xl text-white w-10 h-10 bg-blue-700 flex justify-center items-center rounded-full ">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <!-- menu -->
+        <div class="nav bg-blue-600" id="myNav">
+            <div class="main-box max-w-7xl m-auto">
+                <div onclick="closeNav()" class="close-menu closebtn w-20 h-20 text-white bg-blue-700 rounded-full flex justify-center items-center text-3xl absolute top-3 left-14">
+                    <i class="fa fa-times"></i>
+                </div>
+                <div class="menu">
+                    <ul class="m-0 p-0">
+                        <li class="py-2 inline-block px-1"><a href="./index.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-500 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/home.png" alt="" class="w-7">&nbsp;Nhà</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./live.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/live.png" alt="" class="w-7">&nbsp;Trực Tiếp</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./slot.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/slot.png" alt="" class="w-7">&nbsp;Chỗ</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./poker.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/poker.png" alt="" class="w-7">&nbsp;Bài xì phé</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./lottery.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/lottery.png" alt="" class="w-7">&nbsp;Vé số</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./fish.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/fishing.png" alt="" class="w-7">&nbsp;Đánh bắt cá</a></li>
+                        <li class="py-2 inline-block px-1"><a href="./contact.html" class="border-2 border-blue-500 text-lg text-white px-5 py-2 bg-blue-700 flex items-center rounded-full hover:bg-blue-500 transition-all duration-500"><img src="./assets/images/icon/contact.png" alt="" class="w-7">&nbsp;Tiếp Xúc</a></li>
+                        <li class="py-2 inline-block px-1 user-member hidden"><a href="#" class="border-2 bg-red-600 hover:bg-red-800 text-lg text-white px-5 py-2 flex items-center rounded-full transition-all duration-500">Đăng nhập</a></li>
+                        <li class="py-2 inline-block px-1 user-member hidden"><a href="#" class="border-2 bg-red-600 hover:bg-red-800 text-lg text-white px-5 py-2 flex items-center rounded-full transition-all duration-500">Đăng ký</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- game hot -->
+    <div class="bg-live">
+        <div class="live-banner">
+            <img src="./assets/images/banner/live_banner.9e9faac0.png" alt="">
+        </div>
+        <div class="live max-w-7xl m-auto mt-10 rounded-xl">
+            <div class="main-box-live w-full p-2 inline-block">
+                <div class="column float-left w-1/5 p-2 rounded-xl">
+                    <a href="#">
+                        <div class="box-live rounded-xl shadow">
+                            <div class="images rounded-t-xl relative">
+                                <img src="./assets/images/live/live-1.png" alt="" class="rounded-t-xl">
+                                <div class="play-btn absolute bottom-0 w-full p-2">
+                                    <p class="bg-purple-600 text-white rounded-full flex justify-center items-center p-1">Phí hoàn tối đa 1.1%<i class="fa-solid fa-circle-play text-4xl"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column float-left w-1/5 p-2 rounded-xl">
+                    <a href="#">
+                        <div class="box-live rounded-xl shadow">
+                            <div class="images rounded-t-xl relative">
+                                <img src="./assets/images/live/live-2.png" alt="" class="rounded-t-xl">
+                                <div class="play-btn absolute bottom-0 w-full p-2">
+                                    <p class="bg-purple-600 text-white rounded-full flex justify-center items-center p-1">Phí hoàn tối đa 1.1%<i class="fa-solid fa-circle-play text-4xl"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column float-left w-1/5 p-2 rounded-xl">
+                    <a href="#">
+                        <div class="box-live rounded-xl shadow">
+                            <div class="images rounded-t-xl relative">
+                                <img src="./assets/images/live/live-3.png" alt="" class="rounded-t-xl">
+                                <div class="play-btn absolute bottom-0 w-full p-2">
+                                    <p class="bg-purple-600 text-white rounded-full flex justify-center items-center p-1">Phí hoàn tối đa 1.1%<i class="fa-solid fa-circle-play text-4xl"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column float-left w-1/5 p-2 rounded-xl">
+                    <a href="#">
+                        <div class="box-live rounded-xl shadow">
+                            <div class="images rounded-t-xl relative">
+                                <img src="./assets/images/live/live-4.png" alt="" class="rounded-t-xl">
+                                <div class="play-btn absolute bottom-0 w-full p-2">
+                                    <p class="bg-purple-600 text-white rounded-full flex justify-center items-center p-1">Phí hoàn tối đa 1.1%<i class="fa-solid fa-circle-play text-4xl"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column float-left w-1/5 p-2 rounded-xl">
+                    <a href="#">
+                        <div class="box-live rounded-xl shadow">
+                            <div class="images rounded-t-xl relative">
+                                <img src="./assets/images/live/live-5.png" alt="" class="rounded-t-xl">
+                                <div class="play-btn absolute bottom-0 w-full p-2">
+                                    <p class="bg-purple-600 text-white rounded-full flex justify-center items-center p-1">Phí hoàn tối đa 1.1%<i class="fa-solid fa-circle-play text-4xl"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer bg-gray-800 py-5">
+        <div class="main-box max-w-7xl m-auto">
+            <div class="logo w-48 m-auto pb-5">
+                <img src="./assets/images/logo/logo.png" alt="" class="w-full h-full">
+            </div>
+            <h1 class="text-center text-white pb-5 text-lg">Cờ bạc có thể gây nghiện, hãy chơi có trách nhiệm. Để biết thông tin về các biện pháp hỗ trợ, vui lòng truy cập trang trợ giúp của chúng tôi. Công ty đăng ký tại Quần đảo Virgin thuộc Anh, được các hiệp hội quốc tế công nhận. Vui lòng đảm bảo bạn đủ 18 tuổi trở lên trước khi đăng ký tham gia trò chơi!</h1>
+            <ul class="text-center m-0 p-0">
+                <li class="inline-block"><a href="#" class="hover:text-red-500 px-5 text-lg text-center text-white">Trung tâm trợ giúp</a></li>
+                <span class="text-white font-bold">|</span>
+                <li class="inline-block"><a href="#" class="hover:text-red-500 px-5 text-lg text-center text-white">Liên hệ chúng tôi</a></li>
+                <span class="text-white font-bold">|</span>
+                <li class="inline-block"><a href="#" class="hover:text-red-500 px-5 text-lg text-center text-white">Điều khoản và quy định</a></li>
+            </ul>
+            <p class="text-white text-center text-md pt-10">@ 2012-2022 v1.3.5 BINGO All right reserved</p>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="../path/to/flowbite/dist/flowbite.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
